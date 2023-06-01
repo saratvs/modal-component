@@ -7,6 +7,7 @@ const MapComponent = dynamic(() => import("./mapComponent"), {
   ssr: false,
 });
 const Home: NextPage = () => {
+  console.log("first");
   return (
     <>
       <Head>
